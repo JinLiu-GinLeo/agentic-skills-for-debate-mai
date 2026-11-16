@@ -87,3 +87,9 @@ temp/
 *.synctex.gz
 *.fdb_latexmk
 *.fls
+
+# Additional local secrets and database files
+.envrc
+*.sqlite-*
+*.p12
+*.pfx
