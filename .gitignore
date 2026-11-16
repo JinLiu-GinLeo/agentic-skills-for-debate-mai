@@ -1,0 +1,89 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# API keys and credentials
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+service-account*.json
+
+# ==============================
+# Databases
+# ==============================
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+
+# ==============================
+# Private / raw datasets
+# ==============================
+data/raw/
+data/private/
+datasets/raw/
+datasets/private/
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# macOS
+# ==============================
+.DS_Store
+.AppleDouble
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# LaTeX build artifacts
+# ==============================
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
